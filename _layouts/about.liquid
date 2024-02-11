@@ -5,7 +5,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }} {{ site.last_name }} </span>
+        <span class="font-weight-bold" style="color: #6DFF7D">{{ site.first_name }} {{ site.last_name }} </span>
         
       {% else %}
         {{ site.title }}
@@ -43,7 +43,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a class="font-weight-bold" href="{{ '/blog/' | relative_url }}" style="color: #ee5aff">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -51,7 +51,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a class="font-weight-bold" href="{{ '/news/' | relative_url }}" style="color: #0AFFFE">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
