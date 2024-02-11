@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Sussex, Department of Informatics # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student, University of Sussex, Department of Informatics # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
@@ -19,8 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+With my supervisor [Luc Berthouze](https://profiles.sussex.ac.uk/p201607-luc-berthouze) I work on complex systems, at the intersection between network science and neuroscience, or I may say network neuroscience.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The [projects section](https://enricocaprioglio.github.io/Lucciole/projects/) on this website is supposed to be the scientific part of the website, with my contributions and scientific questions that I am working on. The [blog section](https://enricocaprioglio.github.io/Lucciole/blog/) instead, is the "informal" part of the website. I will write about my personal motivations to study the things I spend a lot of time on, and the "unscientific" intuitions that I think everyone needs to have to do science. If this sounds wrong to you or intrigued you, check my first blog post!
