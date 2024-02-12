@@ -125,9 +125,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Lucciole # blog_name will be displayed in your blog page
 blog_description: >
-  a space for random thoughts nobody asked for! Topics included may be:
-  complexity science, network neuroscience, and stuff like that. I like to keep it informal here,
-  mostly becasue I am bad at writing
+  a space for random thoughts nobody asked for! I like to keep it informal here,
+  mostly becasue I am bad at writing. Topics included may be:
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -278,8 +277,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["network neuroscience", "complexity science", "network science"] # these tags will be displayed on the front page of your blog
+display_categories: ["monthly letter", "random thoughts", "papers"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
