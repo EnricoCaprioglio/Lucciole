@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: tutorials
-description: Here you can find useful links to courses I did teaching assistance for and my own tutorial.
+description: Here you can find useful links to courses I did teaching assistance for and my own tutorials.
 nav: true
 nav_order: 6
 ---
