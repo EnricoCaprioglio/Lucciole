@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code for emergence of metastability
-date:   2025-09-17 10:47:17
+date:   2024-06-30 12:00:00
 description: Just sharing my walkthrough code accompanying the paper
 tags: [complexity science, network science, network neuroscience]
 categories: [papers]
