@@ -26,6 +26,7 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h3>{{ site.blog_description }}</h3>
+    <h3> Topics included may be: </h3>
   </div>
   {% endif %}
 
@@ -55,6 +56,11 @@ pagination:
     </ul>
   </div>
   {% endif %}
+
+<div class="disclaimer-text">
+    Disclaimer 1: these posts are mostly informal thoughts. For the real science, check the projects section! <br>
+    Disclaimer 2: this blog used to be called Lucciole, which means fireflies. Cute right? Well, in Italian it also means something else (I honestly didn't know). <br> Thus, I renamed it Luciole, which is in French.
+  </div>
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}

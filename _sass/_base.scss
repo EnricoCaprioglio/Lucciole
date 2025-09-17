@@ -1097,6 +1097,24 @@ nav[data-toggle="toc"] {
   width: 100%;
 }
 
+.disclaimer-text {
+  font-size: x-small; /* or smaller, e.g., 0.6em or 10px */
+  color: #777; /* Optional: make the text a lighter grey */
+  text-align: left;
+}
+
+.post-header-image {
+  /* Make the image span the full width of its container */
+  width: 120%;
+  height: auto; /* Maintain aspect ratio */
+
+  /* To make it span the entire page width, you might need to use negative margins
+     to counteract the container's padding. Adjust these values as needed. */
+  margin-left: -10%; /* Example: pushes the image to the left */
+  margin-right: -10%; /* Example: pushes the image to the right */
+  margin-top: -6%;
+}
+
 swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);

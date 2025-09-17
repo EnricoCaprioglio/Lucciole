@@ -21,6 +21,6 @@ social: true # includes social icons at the bottom of the page
 
 With my supervisor [Luc Berthouze](https://profiles.sussex.ac.uk/p201607-luc-berthouze) I work on complex systems, at the intersection between network science and neuroscience, or I may say network neuroscience.
 
-The [projects section](https://enricocaprioglio.github.io/Lucciole/projects/) on this website is supposed to be the scientific part of the website, with my contributions and scientific questions that I am working on. The [blog section](https://enricocaprioglio.github.io/Lucciole/blog/) instead, idk, it's currently completely empty!
+The [projects section](https://enricocaprioglio.github.io/Lucciole/projects/) on this website is supposed to be the scientific part of the website, but I am currently rebuilding it. You will find the most (hopefully) useful stuff in the [blog section](https://enricocaprioglio.github.io/Lucciole/blog/). One day, I will have a proper section for repos and teaching, for now they either don't exist, or they are empty.
 
 <!-- If this sounds wrong to you or intrigued you, check my first blog post! -->
