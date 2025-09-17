@@ -35,9 +35,15 @@ As well as the python notebooks:
 If you didn't click on the links above, no worries, I am not offended. <br>
 You can find below the notebook containing all the Gaussian systems results anyway :
 
-<iframe
+<!-- <iframe
   src="{{ site.baseurl }}/assets/julia_html/SynergisticMotifs/Gaussian_results.html"
   width="145%" height="900px"
   style="position: relative; left: -22.5%;">
   >
+</iframe> -->
+
+<iframe class="responsive-iframe"
+  src="{{ site.baseurl }}/assets/julia_html/SynergisticMotifs/Gaussian_results.html"
+  width="145%" height="900px"
+  style="position: relative; left: -22.5%;">
 </iframe>

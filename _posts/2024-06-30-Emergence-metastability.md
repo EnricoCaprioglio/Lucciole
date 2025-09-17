@@ -16,6 +16,7 @@ The latter can be viewed on any browser, and you can also run it via `Binder`. T
 Otherwise, just scroll down to take a look at the whole code!
 
 <iframe
+  class="responsive-iframe"
   src="{{ site.baseurl }}/assets/julia_html/CompetitionAcrossTimescales.html"
   width="145%" height="900px"
   style="position: relative; left: -22.5%;">

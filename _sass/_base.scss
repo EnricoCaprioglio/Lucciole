@@ -1115,6 +1115,22 @@ nav[data-toggle="toc"] {
   margin-top: -6%;
 }
 
+.responsive-iframe {
+  position: relative;
+  left: -22.5%;
+  width: 145%;
+  height: 900px;
+}
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    position: static; /* Reset positioning */
+    left: auto;      /* Remove the negative left offset */
+    width: 100%;     /* Make it fit inside the container */
+    height: 600px;   /* Adjust height for mobile viewing */
+  }
+}
+
 swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
