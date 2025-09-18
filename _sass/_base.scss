@@ -513,7 +513,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -695,9 +695,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        width: 100%;
+        width: 120%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 300px;
       }
 
       .abbr {

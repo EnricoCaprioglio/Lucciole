@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: by categories in reversed chronological order (jekyll-scholar is doing everything)
+# description: 
 nav: true
 nav_order: 2
 ---

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Second version of "[Synergistic Motifs in Gaussian Systems"](https://arxiv-org.sussex.idm.oclc.org/abs/2505.24686) is on the ArXiv and submitted to journal!
+Second version of ["Synergistic Motifs in Gaussian Systems"](https://arxiv-org.sussex.idm.oclc.org/abs/2505.24686) is on the ArXiv and submitted to the journal!

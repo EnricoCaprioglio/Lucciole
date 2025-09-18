@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: posts
 nav: true
 nav_order: 1
 pagination:
@@ -16,6 +16,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<!-- <h1>Post tags and categories</h1> -->
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -23,11 +25,12 @@ pagination:
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h3>{{ site.blog_description }}</h3>
-    <h3> Topics included may be: </h3>
-  </div>
+  <!-- <div class="header-bar"> -->
+    <!-- <h1>{{ site.blog_name }}</h1> -->
+    <!-- <h4>{{ site.blog_description }}</h4> -->
+    <!-- <h5>A blog? What is this, 2005?</h5> -->
+    <!-- Topics included may be: -->
+  <!-- </div> -->
   {% endif %}
 
 {% if site.display_tags or site.display_categories %}
@@ -58,8 +61,8 @@ pagination:
   {% endif %}
 
 <div class="disclaimer-text">
-    Disclaimer 1: these posts are mostly informal thoughts. For the real science, check the projects section! <br>
-    Disclaimer 2: this blog used to be called Lucciole, which means fireflies. Cute right? Well, in Italian it also means something else (I honestly didn't know). <br> Thus, I renamed it Luciole, which is in French.
+    Disclaimer: these posts are mostly informal thoughts. For the real science, check the projects section! <br>
+    <!-- Disclaimer 2: this blog used to be called Lucciole, which means fireflies. Cute right? Well, in Italian it also means something else (I honestly didn't know). <br> Thus, I renamed it Luciole, which is in French. -->
   </div>
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}

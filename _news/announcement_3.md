@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented at the [MPie conference](https://beaiconference.github.io/mpie2025/index.html)!
+Presented at [MPie conference](https://beaiconference.github.io/mpie2025/index.html) some new results. Check out the <a href="{{ site.baseurl }}//assets/pdf/MPIE_presentation.pdf" target="_blank">slides here</a>.
